@@ -2,7 +2,7 @@
 - 👀 I’m interested in web development 
 - 🌱 I’m currently learning b tech in cse
 - 💞️ I’m looking to collaborate on web development
-- 📫 Email: ani.sutharani738@gmail.com
+- 📫 Email: sutharani738@gmail.com
 
 <!---
 ani12004/ani12004 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
