@@ -1,7 +1,6 @@
-- 👋 Hi, I’m @ani12004
-- 👀 I’m interested in web development 
-- 🌱 I’m currently learning b tech in cse
-- 💞️ I’m looking to collaborate on web development
+-  Hi, I’m @ani12004
+-  I’m currently learning b tech in cse
+-  I’m looking to collaborate on web development
 - 📫 Email: sutharani738@gmail.com
 
 <!---
