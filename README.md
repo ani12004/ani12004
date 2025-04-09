@@ -1,6 +1,6 @@
 -  Hi, I’m Anil Suthar
 -  I’m currently learning b tech in cse
--  I’m looking to collaborate on web development
+-  I’m looking to collaborate on development
 - 📫 Email: sutharani738@gmail.com
 
 <!---
