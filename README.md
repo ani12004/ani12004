@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Anil Suthar</h1>
 <h3 align="center">Passionate B.Tech Computer Science student (Cloud Computing specialization) | Aspiring DevOps & Cloud Engineer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ani12004&label=Profile%20views&color=0e75b6&style=flat" alt="ani12004" /> </p>
-
 - 🔭 I’m currently working on **learning new tools for developement**
 
 - 🌱 I’m currently learning **Docker, Kubernetes, Terraform, AWS Services, CI/CD pipelines**
