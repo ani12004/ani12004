@@ -2,14 +2,6 @@
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
 </div>
 
-###
-
-<div align="center">
-  <img height="200" src="https://i.ibb.co/BV0M0VYx/Gemini-Generated-Image-q54hxhq54hxhq54h.png"  />
-</div>
-
-###
-
 <h6 align="left">Hi, I’m Anil Suthar, a passionate B.Tech Computer Science student specializing in Cloud Computing. I am an aspiring DevOps & Cloud Engineer with a strong interest in building, automating, and optimizing scalable cloud infrastructure.<br><br>I’m currently focused on learning and working with modern DevOps tools and cloud technologies such as Docker, Kubernetes, Terraform, AWS services, and CI/CD pipelines. I enjoy exploring how automation and cloud-native solutions can improve deployment efficiency, reliability, and system performance.<br><br>I have hands-on experience with Linux, Bash scripting, AWS, Jenkins, and programming languages like C, C++, and Java I’m always eager to learn new tools, improve my problem-solving skills, and apply best practices in cloud and DevOps environments.<br><br>I’m open to learning opportunities, internships, and collaborations related to Cloud Computing and DevOps.</h6>
 
 ###
