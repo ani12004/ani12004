@@ -4,6 +4,12 @@
 
 ###
 
+<div align="center">
+  <img height="200" src="https://i.ibb.co/BV0M0VYx/Gemini-Generated-Image-q54hxhq54hxhq54h.png"  />
+</div>
+
+###
+
 <h6 align="left">Hi, I’m Anil Suthar, a passionate B.Tech Computer Science student specializing in Cloud Computing. I am an aspiring DevOps & Cloud Engineer with a strong interest in building, automating, and optimizing scalable cloud infrastructure.<br><br>I’m currently focused on learning and working with modern DevOps tools and cloud technologies such as Docker, Kubernetes, Terraform, AWS services, and CI/CD pipelines. I enjoy exploring how automation and cloud-native solutions can improve deployment efficiency, reliability, and system performance.<br><br>I have hands-on experience with Linux, Bash scripting, AWS, Jenkins, and programming languages like C, C++, and Java I’m always eager to learn new tools, improve my problem-solving skills, and apply best practices in cloud and DevOps environments.<br><br>I’m open to learning opportunities, internships, and collaborations related to Cloud Computing and DevOps.</h6>
 
 ###
@@ -52,12 +58,6 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ani12004&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ani12004&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<div align="center">
-  <img height="200" src="https://i.ibb.co/BV0M0VYx/Gemini-Generated-Image-q54hxhq54hxhq54h.png"  />
 </div>
 
 ###
