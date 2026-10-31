@@ -1,182 +1,172 @@
 <!--
-  THE GREENHOUSE | GitHub profile of Anil Suthar
-  A nature-inspired developer landing page built with GitHub-safe HTML + Markdown.
-  Custom animations and illustrations are self-hosted in ./assets/.
-  Artwork is symbolic, not application screenshots or live telemetry.
+BIOME / OS  ·  Anil Suthar's GitHub profile
+Designed as a nature-inspired developer interface that works inside GitHub README limitations.
+Artwork is locally bundled, never hotlinked to a design mockup.
+The SVG activity panel is optional and can be refreshed by the included GitHub Action.
 -->
 
 <div align="center">
   <a href="https://www.anilsuthar.tech/" title="Explore Anil's portfolio">
-    <img src="./assets/forest-hero.gif" width="100%" alt="Animated dawn in a green mountain valley, introducing Anil Suthar, Cloud, DevOps and Applied AI developer" />
+    <img src="./assets/hero-loop.gif" width="100%" alt="Animated BIOME OS landscape and developer terminal introducing Anil Suthar, cloud, DevOps, applied AI and product engineering" />
   </a>
 </div>
 
 <div align="center">
-  <a href="#about-me"><img src="https://img.shields.io/badge/ABOUT-285A47?style=for-the-badge&logoColor=white" alt="About section" /></a>
-  <a href="#the-work"><img src="https://img.shields.io/badge/PROJECTS-376E57?style=for-the-badge&logoColor=white" alt="Projects section" /></a>
-  <a href="#the-toolbox"><img src="https://img.shields.io/badge/TOOLBOX-4B7C64?style=for-the-badge&logoColor=white" alt="Technology section" /></a>
-  <a href="#the-build-loop"><img src="https://img.shields.io/badge/PROCESS-718D6E?style=for-the-badge&logoColor=white" alt="Process section" /></a>
-  <a href="#say-hello"><img src="https://img.shields.io/badge/CONNECT-809878?style=for-the-badge&logoColor=white" alt="Contact section" /></a>
+  <a href="#field-guide"><img src="https://img.shields.io/badge/01_FIELD_GUIDE-18382F?style=for-the-badge&labelColor=102920&color=306A50" alt="Jump to field guide" /></a>
+  <a href="#selected-builds"><img src="https://img.shields.io/badge/02_PROJECTS-18382F?style=for-the-badge&labelColor=102920&color=306A50" alt="Jump to projects" /></a>
+  <a href="#the-ecosystem"><img src="https://img.shields.io/badge/03_ECOSYSTEM-18382F?style=for-the-badge&labelColor=102920&color=306A50" alt="Jump to ecosystem" /></a>
+  <a href="#the-build-cycle"><img src="https://img.shields.io/badge/04_BUILD_CYCLE-18382F?style=for-the-badge&labelColor=102920&color=306A50" alt="Jump to build cycle" /></a>
+  <a href="#connect"><img src="https://img.shields.io/badge/05_CONNECT-18382F?style=for-the-badge&labelColor=102920&color=306A50" alt="Jump to contact links" /></a>
 </div>
 
 <div align="center">
-  <sub><b>LESS NOISE. MORE CURIOSITY. BETTER SYSTEMS.</b></sub>
-  <br /><br />
-  <a href="https://www.anilsuthar.tech/"><img src="https://img.shields.io/badge/Explore%20my%20portfolio-275C49?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/sutharani738/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-477E69?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/ani12004?tab=repositories"><img src="https://img.shields.io/badge/Explore%20repositories-788E6D?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://www.anilsuthar.tech/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-Visit%20website-9BCEAC?style=flat-square&labelColor=16362F&color=356F58" /></a>
+  <a href="https://github.com/ani12004?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/CODE-Public%20repositories-9BCEAC?style=flat-square&labelColor=16362F&color=356F58" /></a>
+  <a href="https://www.linkedin.com/in/sutharani738/"><img alt="LinkedIn" src="https://img.shields.io/badge/CONNECT-LinkedIn-9BCEAC?style=flat-square&labelColor=16362F&color=356F58" /></a>
 </div>
 
-<br />
+<br>
 
-<a id="about-me"></a>
+<img src="./assets/section-bar.png" width="100%" alt="Section overview: the person, the builds, the stack and the process" />
 
-### 🌿 A little about me
+<img src="./assets/telemetry.png" width="100%" alt="Four illustrated developer focus panels: cloud native systems, applied AI, engineering, and creative technology" />
+
+## Field guide
 
 <table>
   <tr>
-    <td width="62%" valign="top">
-      <b>Hi, I'm Anil. I like turning complicated problems into useful tools.</b>
-      <br /><br />
-      I'm a <b>B.Tech Computer Science student</b> specializing in <b>Cloud Computing</b> at <b>Alliance University, Bengaluru</b> (2023–2027).
-      <br /><br />
-      My work lives where <b>cloud infrastructure, automation, generative AI, and product engineering</b> meet. I enjoy building systems that are thoughtful behind the scenes and simple to use on the surface.
-      <br /><br />
-      I'm currently working as an <b>AI Intern</b>, exploring applied LLMs, computer vision, and automation for real-world workflows. Outside that, I experiment with games, 3D tools, and ideas that might become products.
-      <br /><br />
-      <i>Curiosity is the starting point. Shipping something useful is the goal.</i>
+    <td width="56%" valign="top">
+      <h3>Hey, I'm Anil. I build things that make complexity useful.</h3>
+      <p>I'm a <b>B.Tech Computer Science student specializing in Cloud Computing</b> at Alliance University, Bengaluru (2023–2027), and an <b>AI Intern</b> working across generative AI, computer vision and automation.</p>
+      <p>I like projects where the infrastructure is thoughtful, the AI is practical and the interface is a pleasure to use. My interests range from cloud-native engineering and developer tools to creative coding, simulation and 3D experiences.</p>
+      <p><b>Current direction:</b> building dependable AI-assisted workflows, scalable services and tools with real-world utility.</p>
+      <blockquote>Good systems should be powerful under the hood and simple on the surface.</blockquote>
     </td>
-    <td width="38%" valign="top">
-      <b>🌱 Currently growing</b>
-      <br /><br />
-      🌲 Cloud-native architecture
-      <br /><br />
-      🍃 AI agents &amp; automation
-      <br /><br />
-      🪴 Practical developer tools
-      <br /><br />
-      🌤️ Creative computing
-      <br /><br />
-      <code>location: Bengaluru, India</code><br />
-      <code>status: learning + building</code><br />
-      <code>mindset: iterate &gt; perfect</code>
+    <td width="44%" valign="top">
+      <img src="./assets/identity.png" width="100%" alt="Illustrated personal developer card identifying Anil as a Bengaluru-based AI intern and Cloud Computing student" />
     </td>
   </tr>
 </table>
-
-<br />
-
-<a id="the-work"></a>
-
-### 🍂 The work · Selected projects
-
-<sub>Different problems, different experiments, same habit of building.</sub>
-
-<br /><br />
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ani12004/Prompt-Forge-Studio"><img src="./assets/project-prompt.png" width="100%" alt="Forest-green illustrative project card for Prompt Forge Studio" /></a>
-      <br /><b><a href="https://github.com/ani12004/Prompt-Forge-Studio">Prompt Forge Studio ↗</a></b>
-      <br /><sub>Prompt engineering workspace with Next.js and Gemini integration.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ani12004/gini-2.0"><img src="./assets/project-gini.png" width="100%" alt="Mountain and stream themed illustrative card for Gini 2.0" /></a>
-      <br /><b><a href="https://github.com/ani12004/gini-2.0">Gini 2.0 ↗</a></b>
-      <br /><sub>Telegram AI companion with a misinformation-checking focus.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ani12004/Imperium"><img src="./assets/project-imperium.png" width="100%" alt="Moonlit forest themed illustrative project card for Imperium Discord bot" /></a>
-      <br /><b><a href="https://github.com/ani12004/Imperium">Imperium ↗</a></b>
-      <br /><sub>Multi-purpose Discord bot for moderation and community features.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <img src="./assets/project-quantum.png" width="100%" alt="Winding road through mountains illustrative card for QuantumFlow BLR research" />
-      <br /><b>QuantumFlow BLR · Capstone</b>
-      <br /><sub>Computer vision, SUMO simulation, and adaptive traffic signal optimization research.</sub>
-    </td>
-  </tr>
-</table>
-
-<sub>Project illustrations are original symbolic artwork, not screenshots. The capstone has no public repository linked here.</sub>
-
-<br /><br />
-
-<a id="the-toolbox"></a>
-
-### 🪴 The toolbox
-
-<b>01 · Languages &amp; application development</b>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,ts,nextjs&perline=7&theme=light" alt="Python, C, C++, Java, JavaScript, TypeScript, Next.js" />
-</p>
-
-<b>02 · Cloud &amp; platform engineering</b>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,linux,bash,git,githubactions&perline=8&theme=light" alt="AWS, Azure, Docker, Kubernetes, Linux, Bash, Git and GitHub Actions" />
-</p>
-
-<b>03 · Creative computing</b>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=unreal,unity,blender,androidstudio&perline=4&theme=light" alt="Unreal Engine, Unity, Blender and Android Studio" />
-</p>
-
-<code>Prompt engineering</code> · <code>LLM workflows</code> · <code>Computer vision</code> · <code>API integrations</code> · <code>CI/CD</code> · <code>Automation</code>
-
-<br /><br />
-
-<a id="the-build-loop"></a>
-
-### 🌾 The build loop
-
-<sub>Every good system starts small. Observe, design, build, validate, and keep improving.</sub>
-
-<br /><br />
-
-<div align="center">
-  <img src="./assets/growth-terminal.gif" width="100%" alt="Animated green terminal walking through observe, design, build, validate, and ship beside a growing illustrated sprout" />
-</div>
-
-<br />
 
 <details>
-  <summary><b>🌱 Open the greenhouse log</b> · a little more about how I work</summary>
-  <br />
-
-  ```text
-  [ seed ]     find a problem worth solving
-  [ roots ]    understand how the system works
-  [ stem ]     prototype the smallest useful version
-  [ leaves ]   test edge cases, improve, automate
-  [ growth ]   share the result, learn, repeat
-  ```
-
-  I enjoy AI-assisted development, but I care about the parts that make a prototype real: reproducibility, testing, observability, useful UX, and maintainable code.
+  <summary><b>✳ Open my developer coordinates</b> · what I'm exploring right now</summary>
+  <br>
+  <table>
+    <tr><td><b>🌱 Currently learning</b></td><td>AI agents, LLM systems, orchestration and scalable infrastructure</td></tr>
+    <tr><td><b>🔧 Favorite work</b></td><td>Engineering workflows, APIs, automation, developer tooling and applied vision</td></tr>
+    <tr><td><b>🎨 Creative side</b></td><td>Unreal Engine, Unity, Blender and interactive products</td></tr>
+    <tr><td><b>🤝 Collaborations</b></td><td>Open-source tools, product experiments and interesting engineering problems</td></tr>
+  </table>
 </details>
 
-<br />
+<br>
 
-<a id="say-hello"></a>
+## Selected builds
+
+> Some of the things I've shipped, researched or experimented with. The cards below are UI illustrations, not product screenshots.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ani12004/Prompt-Forge-Studio"><img src="./assets/project-prompt.png" width="100%" alt="Prompt Forge Studio project interface illustration" /></a>
+      <h3><a href="https://github.com/ani12004/Prompt-Forge-Studio">Prompt Forge Studio ↗</a></h3>
+      A workspace for creating, refining and managing AI prompts, built with Next.js and Gemini integration.
+      <br><br><code>Prompt Engineering</code> <code>Next.js</code> <code>Gemini</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ani12004/gini-2.0"><img src="./assets/project-gini.png" width="100%" alt="Gini 2.0 AI companion project interface illustration" /></a>
+      <h3><a href="https://github.com/ani12004/gini-2.0">Gini 2.0 ↗</a></h3>
+      A Telegram AI companion with Gemini-powered conversation and a misinformation-checking focus.
+      <br><br><code>Telegram</code> <code>Generative AI</code> <code>Automation</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ani12004/Imperium"><img src="./assets/project-imperium.png" width="100%" alt="Imperium community bot project interface illustration" /></a>
+      <h3><a href="https://github.com/ani12004/Imperium">Imperium ↗</a></h3>
+      A multi-purpose Discord bot focused on moderation, community experiences and automation.
+      <br><br><code>Discord Bot</code> <code>Community</code> <code>Automation</code>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/project-quantum.png" width="100%" alt="QuantumFlow BLR traffic optimization research interface illustration" />
+      <h3>QuantumFlow BLR · Capstone</h3>
+      Research combining computer vision, traffic simulation and adaptive signal optimization using classical and quantum-inspired approaches.
+      <br><br><code>Computer Vision</code> <code>SUMO</code> <code>Optimization</code>
+    </td>
+  </tr>
+</table>
+
+<div align="right"><a href="https://github.com/ani12004?tab=repositories"><b>Explore all public repositories ↗</b></a></div>
+
+<br>
+
+## The ecosystem
+
+<img src="./assets/ecosystem.png" width="100%" alt="Network diagram connecting development fundamentals with Cloud and DevOps, applied AI, product engineering, automation and creative technology" />
+
+<img src="./assets/stack-ribbon.png" width="100%" alt="Three rows of developer modules covering programming languages, cloud and platform engineering, AI and creative development" />
+
+<details>
+  <summary><b>⚙️ Open the full toolbox</b> · methods, frameworks and adjacent interests</summary>
+  <br>
+
+  | Layer | Working knowledge & interests |
+  |:--|:--|
+  | Foundations | C, C++, Java, Python, JavaScript, TypeScript |
+  | Cloud & operations | AWS, Azure, Docker, Kubernetes, Linux, Bash, CI/CD |
+  | Applied AI | LLMs, prompt engineering, computer vision, model/API integration |
+  | Product engineering | Next.js, REST APIs, automation, rapid prototyping |
+  | Creative development | Unreal Engine, Unity, Blender, Android Studio |
+
+  I use AI-assisted coding to accelerate experiments, but still care deeply about testing, documentation, edge cases and maintainability.
+</details>
+
+<br>
+
+## The build cycle
 
 <div align="center">
-  <img src="./assets/forest-footer.png" width="100%" alt="Green mountain footer reading Good ideas grow here, build learn share repeat" />
-  <br /><br />
-  <b>Have an interesting idea, open-source project, or engineering problem?</b>
-  <br />
-  I'm always happy to learn, collaborate, and build things that matter.
-  <br /><br />
-  <a href="https://www.anilsuthar.tech/"><img src="https://img.shields.io/badge/PORTFOLIO-235E4A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/sutharani738/"><img src="https://img.shields.io/badge/LINKEDIN-4C8068?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/ani12004?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-728B70?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
+  <img src="./assets/pipeline-loop.gif" width="100%" alt="Animated five-stage engineering workflow: discover, prototype, validate, automate and ship" />
 </div>
 
+<br>
+
+<img src="./assets/terminal.png" width="100%" alt="Illustrated terminal containing a short developer philosophy emphasizing thoughtful design, testing and shipping useful products" />
+
+<details>
+  <summary><b>🧪 Read the lab notes</b> · what a prototype needs before it becomes a real product</summary>
+  <br>
+
+  ```text
+  [ ] Can another developer run it without guessing?
+  [ ] Does it fail loudly and recover safely?
+  [ ] Are the important decisions documented?
+  [ ] Are the real workflows tested, not just the demo?
+  [ ] Does it meaningfully help the person using it?
+  ```
+
+  My favorite engineering work lives between a fast idea and the careful systems that make it reliable.
+</details>
+
+<br>
+
+## Repository signal
+
 <div align="center">
-  <br />
-  <sub>🌲 Designed with a little nature and a lot of curiosity · Self-hosted animated artwork · Built for GitHub Markdown</sub>
+  <img src="./assets/activity.svg" width="100%" alt="Self-hosted public GitHub repository activity panel. Updated by an optional scheduled GitHub Action." />
+  <sub>Public repository snapshot · generated automatically when the included workflow is enabled. No visitor counters or fabricated metrics.</sub>
+</div>
+
+<br>
+
+## Connect
+
+<div align="center">
+  <img src="./assets/footer.png" width="100%" alt="Forest landscape footer with the words Good ideas grow here" />
+  <br><br>
+  <a href="https://www.anilsuthar.tech/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-18382F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open portfolio" /></a>
+  <a href="https://github.com/ani12004"><img src="https://img.shields.io/badge/GITHUB-285B44?style=for-the-badge&logo=github&logoColor=white" alt="Open GitHub" /></a>
+  <a href="https://www.linkedin.com/in/sutharani738/"><img src="https://img.shields.io/badge/LET'S_CONNECT-3A765A?style=for-the-badge&logo=linkedin&logoColor=white" alt="Open LinkedIn" /></a>
+  <br><br>
+  <sub>BIOME / OS · Designed to grow with the work · Nature-inspired graphics built specifically for this profile</sub>
 </div>

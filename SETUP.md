@@ -1,65 +1,68 @@
-# The Greenhouse | Anil's nature-inspired GitHub profile
+# BIOME / OS · Profile install and customization
 
-A GitHub-compatible profile README, built without JavaScript or custom CSS.
+This package is a **real GitHub profile README**, built for `github.com/ani12004/ani12004`. It includes self-hosted artwork and lightweight GIF loops. The project graphics are conceptual illustrations, not application screenshots.
 
-## What's inside
+## Windows install (recommended)
 
-- `README.md`: The actual GitHub profile page. It uses Markdown and safe GitHub HTML, not a screenshot.
-- `assets/forest-hero.gif`: Original animated landscape introduction, entirely self-hosted.
-- `assets/growth-terminal.gif`: Original animated build-loop terminal, entirely self-hosted.
-- `assets/project-*.png`: Four original scenic project illustrations, with links in the README to verified public GitHub repositories where applicable.
-- `assets/forest-footer.png`: Nature-themed footer.
-- `tools/generate_assets.py`: Source script for reproducing artwork with Pillow. Run with `python tools/generate_assets.py` in this folder. The script uses font paths from this Linux build environment; adapt them for Windows.
-- `.github/workflows/snake.yml`: Optional GitHub Actions contribution-snake generator. Not used by the README unless you choose to add it.
+1. Unzip the **whole folder** (do not copy only `README.md`).
+2. Open `INSTALL_WINDOWS.cmd` by double-clicking, or run it from CMD.
+3. Review the staged files when prompted, then select **Y** to publish.
+4. The installer **clones the repository to a new `Anil_Biome_Live` directory** beside the extracted folder. It never force-pushes and doesn't depend on your earlier local folders, including a rebase-conflicted directory.
 
-## Install using Windows CMD
+If you still have a rebase conflict in **a different earlier folder**, it remains independent. You can cancel it separately there with `git rebase --abort`, but **do not run that inside a freshly cloned repository**.
 
-Open the **extracted `Anil_Nature_Profile` folder** in CMD and run:
+## Manual commands from the extracted directory (CMD)
 
 ```bat
-git init
-git branch -M main
-git remote add origin https://github.com/ani12004/ani12004.git
-git fetch origin main
-git reset --mixed origin/main
-git add README.md assets SETUP.md tools .github
+cd /d D:\downloads
+git clone https://github.com/ani12004/ani12004.git Anil_Biome_Live
+robocopy "D:\downloads\Anil_Biome_OS_GitHub" "D:\downloads\Anil_Biome_Live" /E /XD .git
+cd /d D:\downloads\Anil_Biome_Live
+git add README.md SETUP.md assets tools .github\workflows\refresh-biome.yml
 git status
-git commit -m "style: redesign profile with animated nature theme"
+git commit -m "style: launch nature-inspired BIOME OS GitHub profile"
+git pull --rebase origin main
 git push -u origin main
 ```
 
-The `git remote add origin` command is only for a folder with no existing origin. If one exists, use:
+**Important:** If `git pull --rebase` has a conflict, stop and resolve it before pushing. Never use `git push --force` just to publish a README.
+
+## Live repository signal (optional)
+
+The profile already includes `assets/activity.svg` as a static initial snapshot. The included `.github/workflows/refresh-biome.yml` action can generate a fresh public-repository activity panel from the GitHub API, scheduled once daily.
+
+To activate it:
+
+1. On GitHub, open the profile repository, **Actions** tab, **Refresh BIOME OS repository signal**.
+2. Use **Run workflow** on `main`. If GitHub prompts to enable Actions, do so first.
+3. Make sure repository **Settings → Actions → General → Workflow permissions** allows read/write access if GitHub reports an insufficient permission error. Organizational policies may prevent changes.
+4. The workflow fetches public repositories only. It writes `assets/activity.svg`, commits only if changed, and has no paid external dependencies.
+
+The workflow may be subject to GitHub Actions schedule delays and public API availability. It is not real-time telemetry.
+
+## Customization
+
+- `README.md`: profile information, sections and links.
+- `assets/hero-loop.gif`: animated hero image. `assets/hero-still.png`: static version.
+- `assets/project-*.png`: original project cards.
+- `assets/ecosystem.png`: technical network panel.
+- `assets/pipeline-loop.gif`: animated workflow.
+- `assets/activity.svg`: self-hosted repo activity snapshot.
+- `tools/generate_assets.py`: editable artwork generator; adjust colors and typography in `C`, then regenerate with:
 
 ```bat
-git remote set-url origin https://github.com/ani12004/ani12004.git
+python -m pip install pillow cairosvg
+python tools\generate_assets.py
 ```
 
-If you're **replacing the old Developer OS files in the same folder**, extract this package into that folder and delete only the older unneeded artwork manually. `git add -A` will stage those deletions, so inspect `git status` before committing. Do not use force-push.
+On Windows, CairoSVG may require a Cairo runtime; the generator is optional because all finished images are already bundled.
 
-## What works on GitHub?
+The generator is optional for using the README. The actual profile needs no Python process and no server to display its artwork.
 
-- The header GIF and terminal GIF animate directly in GitHub's README viewer (GIFs, not embedded JavaScript).
-- Buttons are standard links, and navigation links jump to sections.
-- The greenhouse log uses GitHub's native `<details>` / `<summary>` expansion.
-- Project images are self-hosted and work without an animation server.
-- Technology icons and badges load from `skillicons.dev` and `shields.io`. If you want 100% self-hosted imagery, replace these third-party icon strips with locally saved images.
-- The snake workflow is **optional** and excluded from the README until you explicitly enable and run it, avoiding broken placeholders.
+### GitHub README constraints
 
-## Optional: add a green contribution snake
+GitHub strips custom JavaScript, style tags and much CSS in READMEs. For this reason the design uses custom GIF/PNG assets, standard headings, linked image cards, semantic tables, working anchor links and interactive `<details>` elements. An interactive website experience in the literal sense requires a separately hosted page; this design takes GitHub Markdown as far as it reasonably goes without fake buttons or broken interactions.
 
-In GitHub, open your profile repository, then **Actions > Animate contribution snake > Run workflow**. Depending on your settings, you may need to enable Actions and repository **Settings > Actions > General > Workflow permissions > Read and write permissions**.
+### Sources and link checks
 
-After it succeeds, add this Markdown snippet where you want the snake:
-
-```md
-![Contribution garden snake](https://raw.githubusercontent.com/ani12004/ani12004/output/github-snake.svg)
-```
-
-The workflow creates an `output` branch, so don't add the snippet before a successful run.
-
-## Accurate presentation
-
-- Art is conceptual. It does not depict verified app screenshots, live dashboards, or production status.
-- Public repository links: Prompt-Forge-Studio, gini-2.0, and Imperium.
-- QuantumFlow BLR is included as private capstone research with no speculative public link.
-- GitHub does not run arbitrary HTML/CSS/JS in READMEs, so this is a visual landing-page experience built with supported Markdown, GIFs and safe HTML.
+The linked public project repositories are `ani12004/Prompt-Forge-Studio`, `ani12004/gini-2.0` and `ani12004/Imperium`. The QuantumFlow BLR capstone is presented without inventing a public link. The profile is intentionally not displaying made-up project metrics or contribution counts.

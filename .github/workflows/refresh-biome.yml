@@ -1,0 +1,29 @@
+name: Refresh BIOME OS repository signal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate public repository snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ani12004
+        run: python tools/refresh_activity.py
+      - name: Commit only when activity changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh BIOME OS repository signal [skip ci]"
+            git push
+          fi
