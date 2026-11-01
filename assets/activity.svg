@@ -1,12 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="254" viewBox="0 0 1100 254">
-<defs><linearGradient id="b" x1="0" x2="1" y2="1"><stop stop-color="#091c18"/><stop offset="1" stop-color="#173d31"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="254" viewBox="0 0 1100 254" role="img">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#091c18"/><stop offset="1" stop-color="#173d31"/></linearGradient></defs>
 <rect x="1" y="1" width="1098" height="252" rx="16" fill="url(#b)" stroke="#47745d"/>
 <g font-family="Arial,DejaVu Sans,sans-serif">
-<circle cx="34" cy="35" r="5" fill="#8be0b7"/><text x="50" y="41" font-size="14" font-weight="700" fill="#9fe1b9" letter-spacing="2">REPO SIGNAL / PUBLIC PROJECTS</text>
-<text x="1060" y="41" text-anchor="end" font-size="11" fill="#a5c5b4">Run GitHub Action to sync recent updates</text>
-<rect x="30" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/><text x="48" y="95" fill="#90dfae" font-size="12" font-weight="700">01 / FEATURED</text><text x="48" y="128" fill="#f2efe3" font-size="17" font-weight="700">Prompt Forge Studio</text><text x="48" y="154" fill="#bdcfc0" font-size="11">AI prompt engineering workspace</text><text x="48" y="189" fill="#99d2b0" font-size="11">Public repository</text>
-<rect x="297" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/><text x="315" y="95" fill="#90dfae" font-size="12" font-weight="700">02 / FEATURED</text><text x="315" y="128" fill="#f2efe3" font-size="17" font-weight="700">Gini 2.0</text><text x="315" y="154" fill="#bdcfc0" font-size="11">Telegram AI companion</text><text x="315" y="189" fill="#99d2b0" font-size="11">Public repository</text>
-<rect x="564" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/><text x="582" y="95" fill="#90dfae" font-size="12" font-weight="700">03 / FEATURED</text><text x="582" y="128" fill="#f2efe3" font-size="17" font-weight="700">Imperium</text><text x="582" y="154" fill="#bdcfc0" font-size="11">Community automation bot</text><text x="582" y="189" fill="#99d2b0" font-size="11">Public repository</text>
-<rect x="831" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/><text x="849" y="95" fill="#90dfae" font-size="12" font-weight="700">04 / SYNC STATUS</text><text x="849" y="128" fill="#f2efe3" font-size="17" font-weight="700">Awaiting first sync</text><text x="849" y="154" fill="#bdcfc0" font-size="11">Actions / Run workflow</text><text x="849" y="189" fill="#99d2b0" font-size="11">Automated daily refresh</text>
-</g>
-</svg>
+<circle cx="34" cy="35" r="5" fill="#8be0b7"/><text x="50" y="41" font-size="14" font-weight="700" fill="#9fe1b9" letter-spacing="2">REPO SIGNAL / LIVE PUBLIC SNAPSHOT</text>
+<text x="1060" y="41" text-anchor="end" font-size="11" fill="#a5c5b4">Updated 01 Nov 2026, 11:16 UTC</text>
+<rect x="30" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/>
+<text x="48" y="95" fill="#90dfae" font-size="12" font-weight="700">01 / REPOSITORY</text>
+<text x="48" y="128" fill="#f2efe3" font-size="17" font-weight="700">devops</text>
+<text x="48" y="154" fill="#bdcfc0" font-size="11">Public repository</text>
+<text x="48" y="189" fill="#99d2b0" font-size="11">Code  ·  2026-08-04</text>
+<rect x="297" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/>
+<text x="315" y="95" fill="#90dfae" font-size="12" font-weight="700">02 / REPOSITORY</text>
+<text x="315" y="128" fill="#f2efe3" font-size="17" font-weight="700">ikip</text>
+<text x="315" y="154" fill="#bdcfc0" font-size="11">Public repository</text>
+<text x="315" y="189" fill="#99d2b0" font-size="11">Python  ·  2026-07-22</text>
+<rect x="564" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/>
+<text x="582" y="95" fill="#90dfae" font-size="12" font-weight="700">03 / REPOSITORY</text>
+<text x="582" y="128" fill="#f2efe3" font-size="17" font-weight="700">Health-Buddy</text>
+<text x="582" y="154" fill="#bdcfc0" font-size="11">Public repository</text>
+<text x="582" y="189" fill="#99d2b0" font-size="11">TypeScript  ·  2026-04-24</text>
+<rect x="831" y="65" width="247" height="152" rx="12" fill="#1b4033" stroke="#4a7861"/>
+<text x="849" y="95" fill="#90dfae" font-size="12" font-weight="700">04 / REPOSITORY</text>
+<text x="849" y="128" fill="#f2efe3" font-size="17" font-weight="700">demo</text>
+<text x="849" y="154" fill="#bdcfc0" font-size="11">Public repository</text>
+<text x="849" y="189" fill="#99d2b0" font-size="11">Code  ·  2026-03-29</text>
+</g></svg>
